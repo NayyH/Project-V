@@ -1,0 +1,25 @@
+Video Upload: We will use React for the frontend and Flask for the backend so users can upload volleyball clips to the app.
+
+Video Processing: We will use Python and OpenCV to read uploaded videos, extract frames, and collect information such as FPS and video dimensions.
+
+Pose Detection: We will use MediaPipe Pose to detect body landmarks such as the shoulders, elbows, wrists, hips, knees, and ankles in each frame.
+
+Swing Detection: We will use Python, OpenCV, and MediaPipe to analyze how the player's body landmarks move over time and identify phases such as the approach, jump, arm swing, contact, and landing.
+
+Technique Analysis: We will use NumPy and Python to calculate measurements such as joint angles, approach timing, jump height, arm movement, and contact position.
+
+Strengths and Weaknesses: We will initially use Python-based rules to turn those measurements into specific strengths and weaknesses, and we can add machine learning later.
+
+AI Coaching Tips: We will use an LLM API to turn the identified weaknesses into personalized explanations, tips, and volleyball drills.
+
+Player Comparisons: We will create a player database and use the analysis data and an LLM to recommend professional players whose techniques can serve as useful examples.
+
+Progress Tracking: We will use PostgreSQL and Python to save previous analyses and compare a user's new clips against their older clips.
+
+XP System: We will use Flask and PostgreSQL to award XP for actions such as uploading videos, completing recommended drills, and demonstrating measurable improvement.
+
+User Dashboard: We will use React to create a dashboard where users can see their strengths, weaknesses, technique statistics, XP, recommendations, and progress.
+
+Accounts and Database: We will use Flask, PostgreSQL, and an authentication system to manage user accounts and securely store videos, analyses, progress, and XP.
+
+Deployment: We will use Vercel for the React frontend and Render or Railway for the Flask backend so the application can be accessed online.
